@@ -1,0 +1,22 @@
+Task Description : Problem 1 
+----------------------------
+
+Consider this class:
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+class User {
+    String name;
+    String languages;
+}
+
+I have a List<User> and I would like to reduce on languages. Input:
+
+List<User> list = new ArrayList<>();
+list.add(new User("sam", "java"));
+list.add(new User("sam", "js"));
+list.add(new User("apollo", "html"));
+Expected output:
+
+[User(name=apollo, languages=html), User(name=sam, languages=java, js)] 
+ 

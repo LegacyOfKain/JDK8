@@ -1,0 +1,15 @@
+Scenario
+----------
+
+By looking at below example class, answer the following questions, 
+
+1. Get student with exact match name "jayesh"
+2. Get student with matching address "1235"
+3. Get all student having mobile numbers 3333.
+4. Get all student having mobile number 1233 and 1234
+5. Create a List<Student> from the List<TempStudent>
+6. Convert List<Student> to List<String> of student name
+7. Convert names in List<students> to a concatenated String
+8. Change the case of List<String> --> Arrays.asList("Jayesh", "Dany", "Khyati", "Hello", "Mango")
+9. Sort List<String>
+10. Sort List<Student> using name field

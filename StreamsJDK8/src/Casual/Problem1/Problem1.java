@@ -1,11 +1,16 @@
 package Casual.Problem1;
 
+import static org.junit.Assert.*;
+
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
+
+import org.junit.Test;
 
 public class Problem1 {
 
@@ -189,5 +194,16 @@ public class Problem1 {
 		nameSortedList.forEach(System.out::println);
 		
 	}
+	
+	@Test		
+    public void m5() {		
+		List<String> list = new ArrayList();
+        list.add("test");
+        System.out.println("sd");
+        //assertFalse(list.isEmpty());			
+        //assertEquals(1, list.size());			
+    }	
 
 }
+
+

@@ -37,6 +37,15 @@ public class MultiplyandSumIntegers {
         i = s.collect(Collectors.reducing(1, (integer, integer2)
                             -> integer2 * integer));
         System.out.println("product = "+ i);
+        
+        //integer divided to convert to double
+        Stream<Integer> s2 = Stream.of(5, 10, 20, 50);
+        Double i2 = s2.collect(
+        		               Collectors.reducing(  1.0,(Integer x)->x.doubleValue(),(x,y)->y/x)
+        		               );
+ 
+
+        System.out.println(i2);
 
 	}
 
